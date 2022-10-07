@@ -29,6 +29,8 @@ function ExpenseForm(props) {
     setEnteredAmount("");
     setEnteredTitle("");
     setEnteredDate("");
+
+    
   };
 
   return (
