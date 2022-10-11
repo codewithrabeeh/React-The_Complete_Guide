@@ -36,7 +36,6 @@ const App = () => {
     setExpenses(prevExpense => {
       return [expense, ...prevExpense]
     })
-    // console.log(expenses)
   }
 
   return (

@@ -29,7 +29,6 @@ function ExpenseForm(props) {
     setEnteredAmount("");
     setEnteredTitle("");
     setEnteredDate("");
-
     
   };
 
@@ -66,7 +65,8 @@ function ExpenseForm(props) {
         </div>
       </div>
       <div className="new-expense__actions">
-        <button type="submit">Add Expense</button>
+        <button onClick={() => {props.toggle(false)}}>Cancel</button>
+        <button type="submit" >Add Expense</button>
       </div>
     </form>
   );
